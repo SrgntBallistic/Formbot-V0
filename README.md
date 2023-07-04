@@ -2,17 +2,23 @@
 Details/Documentation for the Formbot V0 Kit
 
 ## Kirigami Bed
-GitHub: 
+GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
+
 Manual: 
 
 ## BTT SKR Pico
 GitHub: https://github.com/bigtreetech/SKR-Pico
+
 Manual: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V1.0%20Instruction%20Manual.pdf
 
 ## BTT V0 Display
+GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
+
+Flashing Docs: https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md
 
 ## BTT Pi V1.2
 GitHub: https://github.com/bigtreetech/BTT-Pi
+
 Manual: https://github.com/bigtreetech/BTT-Pi/blob/master/BIGTREETECH%20Pi%20V1.2%20User%20Manual.pdf
 
 ### Flashing Image
