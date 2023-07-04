@@ -2,7 +2,7 @@
 Details/Documentation for the Formbot V0 Kit
 
 ## Kirigami Bed
-GitHub: 
+GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
 Manual: 
 
 ## BTT SKR Pico
