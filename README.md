@@ -1,6 +1,8 @@
 # Formbot-V0
 Details/Documentation for the Formbot V0 Kit
 
+![Formbot V0 Kit](https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Kit/formbot-v0-kit-main.jpg?raw=true)
+
 ## Features
 - Kirigami Bed Kit
 - BTT Pi V1.2
