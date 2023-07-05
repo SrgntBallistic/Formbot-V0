@@ -2,6 +2,7 @@
 Details/Documentation for the Formbot V0 Kit
 
 ## Kirigami Bed
+![Kirigami Bed](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/Images/stealth_beta.png?raw=true)
 GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
 
 Manual: 
@@ -16,10 +17,30 @@ GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
 
 Flashing Docs: https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md
 
+Biqu Listing: https://biqu.equipment/products/voron-display-v1-0
+
+Ali Express Listing: https://s.click.aliexpress.com/e/_DBvhC7R
+
+Features:
+- 1.3" OLED Display
+- Rotary Encoder
+- Neopixel
+- STM32F042F6P6 MCU
+- USB Connector
+
 ## BTT Pi V1.2
 GitHub: https://github.com/bigtreetech/BTT-Pi
 
 Manual: https://github.com/bigtreetech/BTT-Pi/blob/master/BIGTREETECH%20Pi%20V1.2%20User%20Manual.pdf
+
+Biqu Listing: https://biqu.equipment/collections/control-board/products/bigtreetech-btt-pi-v1-2
+
+Aliexpress Listing: https://s.click.aliexpress.com/e/_DmQwZ0V
+
+Useful features:
+- ADXL SPI Port for Input Shaping
+- 12-24V Power terminal input
+- 5V USB-C Power input
 
 ### Flashing Image
 The BTT Pi uses the same images as the BBT CB1 compute module. You can follow instructions for installing it.
