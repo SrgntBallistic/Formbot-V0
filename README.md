@@ -1,6 +1,27 @@
 # Formbot-V0
 Details/Documentation for the Formbot V0 Kit
 
+## Features
+- Kirigami Bed Kit
+- BTT Pi V1.2
+- BTT SKR Pico
+- BTT V0 Display
+- CHC V6 Hotend (Upgradeable to Dragon/HF)
+- Double Sided PEI Sheet
+- Crimped Wiring Looms
+- Moons Motors
+- Stainless Steel Rails
+- MIC6 Cast Aluminum Build Plate
+- Polycarbonate Panels
+- Gates Belts
+- Vivedino 60W Silicone Bed Heater
+- Stainless Steel Hardware
+- Umbilical Board + Harness
+- Makerbeam XL Extrusion
+- Meanwell 150W PSU
+
+Aliexpress Listing: https://s.click.aliexpress.com/e/_Dk19GYN
+
 ## Kirigami Bed
 ![Kirigami Bed](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/Images/stealth_beta.png?raw=true)
 GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
