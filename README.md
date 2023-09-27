@@ -73,7 +73,57 @@ Images: https://github.com/bigtreetech/CB1/releases
 
 By Default the host name for the image will be "btt-cb1" and it can be accessed with "btt-cb1.local" if you don't know the IP Address for it yet.
 
-## Misc References and Recommended Mods/Prints
+## Products Used
+### Fabreeko cPIF V0.2 Printed Parts
+https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175
+
+### EP2 Grease
+https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease
+
+### GDS Time Fan Mini Stealthburner Fan Kit
+https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_ss=r
+
+## My Mods
+
+### LDO Kirigami Wiring Kit
+
+**Description**: "LDO Krirgami LED PCB, LDO Kirigami Breakout PCB, LDO Breakout Wire Kit, Wago 221-412 x 2 For use with Kirigami Beds"
+
+**Link**: https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit
+
+### Nevermore V6
+
+**Description**: 3D Printed Activated Charcoal Filter
+
+**Link**: https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6
+
+2 5015 Fans
+https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895
+https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
+
+2 Wago 221-412 connectors (Optional)
+Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
+
+### Klipper Expander Board
+
+**Links**:
+https://www.fabreeko.com/collections/v0/products/klipper-expander-board
+https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323da715&_ss=r
+
+### Fabreeko Honeybadger V0 Metal Toolhead Carriage
+
+**Link**: https://www.fabreeko.com/collections/v0/products/v0-2-metal-toolhead-carriage-for-v0-2-by-honeybadger?variant=44164192338175
+
+**Variation**: MGN7H
+
+Requires - 4 M2x4 screws (for carriage mount), M3x8 (replaces rear M3x16 motor plate screw)
+
+### Rainbow Matchstick LEDs
+
+**Links**:
+https://dfh.fm/products/rainbow-stick?variant=43340753666270
+
+**Mounts**: https://www.printables.com/model/408214-matchstick-diffusers
 
 ### Cable Management Tracks
 These are printable versions of the tracks that LDO and other kits include.
