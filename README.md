@@ -8,6 +8,7 @@ Details/Documentation for the Formbot V0 Kit
 ## BTT SKR Pico
 **GitHub**: https://github.com/bigtreetech/SKR-Pico
 **Manual**: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V1.0%20Instruction%20Manual.pdf
+**Flashing (From Pi without PC)**: https://docs.vorondesign.com/build/software/skrPico_klipper.html
 
 ## BTT V0 Display
 
