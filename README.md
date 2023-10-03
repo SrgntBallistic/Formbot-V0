@@ -124,7 +124,7 @@ An inline connector can be used to split the Thermistor wires under the bed.
 ### Formbot Wiring + LDO Kirigami Wiring Kit
 ![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-+-LDO-Wiring-Kit.png)
 
-The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED PCB. The LDO V0 repo has stls for mounting its PCBs and the wagos. See the Kirigami Manual for more info.
+The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED PCB. A third wago is needed for the Formbot Thermal Fuse. The LDO V0 repo has stls for mounting its PCBs and the wagos. See the Kirigami Manual for more info.
 
 ## Products Used
 ### Phaetus Dragon HF
