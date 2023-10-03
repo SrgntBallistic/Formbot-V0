@@ -64,10 +64,14 @@ Manual: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V
 
 **Flashing (From Pi without PC)**: https://docs.vorondesign.com/build/software/skrPico_klipper.html
 
+![BTT SKR Pico](<Images/SKR Pico/btt-skr-pico.jpg>)
+
 The SKR Pico is a nice small footprint Main Board. It trades some IO/connectivity capability for its compact size. Ex: there's no input of the chamber thermistor that comes on the V0 Umbilical frame PCB. Also there's no extra fan ports to hook up fans for something like the Nevermore filter. An Extra MCU like the Klipper Expander would be necessary to get some of this IO back.
 
 ## BTT V0 Display
 GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
+
+![V0 Display](<Images/BTT V0 Display/btt-v0-display-front.jpg>)
 
 Flashing Docs: https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md
 
@@ -86,6 +90,8 @@ Small simple display with a neopixel onboard to change the LCD Color.
 
 ## BTT Pi V1.2
 GitHub: https://github.com/bigtreetech/BTT-Pi
+
+![BTT Pi V1.2](<Images/BTT Pi/btt-pi-front-back.png>)
 
 Manual: https://github.com/bigtreetech/BTT-Pi/blob/master/BIGTREETECH%20Pi%20V1.2%20User%20Manual.pdf
 
@@ -112,6 +118,8 @@ By Default the host name for the image will be "btt-cb1" and it can be accessed 
 
 GitHub: GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical
 
+![V0 Umbilical](Images/Wiring/Formbot-V0-Umbilical.png)
+
 The V0 Umbilical is a great mod included in this kit. It makes wiring much easier. All of the signals/power to the toolhead goes through a toolhead PCB breakout board, down to the back of the frame via a pre-made wire harness, through a second frame pcb breakout board and finally down to the SKR Pico.
 
 Forbmot has precut and crimped most of the wires that go from the mainboard to the frame PCB. They've also made most of the wires that hook into the toolhead pCB the correct length as well.
@@ -126,6 +134,8 @@ The Kirigami Bed Frame alows splitting the wiring coming out of the bed so that 
 Voron recommends using Wago connectors to allow easily disconnecting the wires. The Kirigami bed mod includes mounts for the Wago connectors.
 
 Since the Formbot kit bed heater doesn't include an integrated thermal fuse it needs to be connected inline with one side of the bed wires.
+
+![Bed Wiring](Images/Wiring/v0.2r1-cable-management-05.jpg)
 
 ### Generic Formbot Wiring
 ![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-Generic.png)
