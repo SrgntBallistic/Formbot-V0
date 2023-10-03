@@ -8,9 +8,9 @@ Details/Documentation for the Formbot V0 Kit
 Most of this is set in the `printer.cfg` file I've provided
 
 ### Max Motor Currents
-A/B - 1.5A
-Z - 0.65A
-E - 1.0A
+- A/B - 1.5A
+- Z - 0.65A
+- E - 1.0A
 
 ### 65% Run Currents
 Voron recommends 60-70% (0.6-0.7) to start
@@ -19,14 +19,14 @@ I chose 65%. Increase as needed but try to stay below 80-90%
 Run Current = rated_motor_current * 0.707 * 0.65
 
 Plug the max currents above into the equation with your desired percentage
-A/B - 0.69 (NICE!)
-Z - 0.3A
-E - 0.46A
+- A/B - 0.69 (NICE!)
+- Z - 0.3A
+- E - 0.46A
 
 ### Thermistors
-Formbot Bed - "Generic 3950"
-Formbot V6 CHC Hotend - "ATC Semitec 104NT-4-R025H42G"
-Check Klipper docs for the correct sensor type based on your thermistor/hotend
+- Formbot Bed - "Generic 3950"
+- Formbot V6 CHC Hotend - "ATC Semitec 104NT-4-R025H42G"
+- Check Klipper docs for the correct sensor type based on your thermistor/hotend
 
 ## Features
 - Kirigami Bed Kit
@@ -55,12 +55,16 @@ GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
 
 Manual: https://github.com/Kagee/kirigami-bed-manual
 
+The Kirigami bed frame is a great mod/upgarde that comes wiht the kit. I had some trouble with the provided bed around it's thickness and the placement of the thermal fuse. I was able to get through all the issues with small DIY fixes. Other people have also noted they've run into these issues on the Voron Discord as well as the Kirigami GitHub. YMMV
+
 ## BTT SKR Pico
 GitHub: https://github.com/bigtreetech/SKR-Pico
 
 Manual: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V1.0%20Instruction%20Manual.pdf
 
 **Flashing (From Pi without PC)**: https://docs.vorondesign.com/build/software/skrPico_klipper.html
+
+The SKR Pico is a nice small footprint Main Board. It trades some IO/connectivity capability for its compact size. Ex: there's no input of the chamber thermistor that comes on the V0 Umbilical frame PCB. Also there's no extra fan ports to hook up fans for something like the Nevermore filter. An Extra MCU like the Klipper Expander would be necessary to get some of this IO back.
 
 ## BTT V0 Display
 GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
@@ -78,6 +82,8 @@ Features:
 - STM32F042F6P6 MCU
 - USB Connector
 
+Small simple display with a neopixel onboard to change the LCD Color.
+
 ## BTT Pi V1.2
 GitHub: https://github.com/bigtreetech/BTT-Pi
 
@@ -92,6 +98,8 @@ Useful features:
 - 12-24V Power terminal input
 - 5V USB-C Power input
 
+The BTT Pi V1.2 is a nice alternative to Raspberry branded Single-Board-Computers that have frequently shot up in price. It has some nice 3D Printing specific features and numerous ways to power it.
+
 ### Flashing Image
 The BTT Pi uses the same images as the BBT CB1 compute module. You can follow instructions for installing it.
 
@@ -104,11 +112,17 @@ By Default the host name for the image will be "btt-cb1" and it can be accessed 
 ### Fabreeko cPIF V0.2 Printed Parts
 https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175
 
+I found the cPIF parts pretty nice. I've since replaced a couple of of failed parts but I don't attribute the failures to the quality of the prints. More to some inherent issues in the part design
+
 ### EP2 Grease
 https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease
 
+I originally greased the rails with White Lithium lubricant but bought this and regreased them when I redid the frame.
+
 ### GDS Time Fan Mini Stealthburner Fan Kit
 https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_ss=r
+
+The stock fans are probably the most noticable lower quality parts of this kit. I found the plastic a bit brittle and the leads didn't tuck into the their slots on the body. This cause them to get pinched when I put them in the Mini SB.
 
 ## My Mods
 
@@ -117,6 +131,8 @@ https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_
 **Description**: "LDO Krirgami LED PCB, LDO Kirigami Breakout PCB, LDO Breakout Wire Kit, Wago 221-412 x 2 For use with Kirigami Beds"
 
 **Link**: https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit
+
+Since the Formbot Kit only comes with the frame I bought this wiring kit to get close to what comes in the LDO kit.
 
 ### Nevermore V6
 
@@ -131,12 +147,13 @@ https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
 2 Wago 221-412 connectors (Optional)
 Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
 
+Printing ABS (as with most filament materials) can release VOCs (Volatile Organic Compounds) and has a noticabley more noxious smell than other materials like PLA. An active carbon filter can help clear absorb those orders/VOCs and move some air around the chamber for more efficient heating.
+
 ### Klipper Expander Board
 
-Board allows increased IO and power for mods and upgrades limited by BTT SKR Pico board.
-Neopixels
-Nevermore Fans
-
+Board allows increased IO and power for mods and upgrades limited by BTT SKR Pico board
+- Neopixels
+- Nevermore Fans
 
 **Links**:
 https://www.fabreeko.com/collections/v0/products/klipper-expander-board
@@ -150,15 +167,42 @@ https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323d
 
 Requires - 4 M2x4 screws (for carriage mount), M3x8 (replaces rear M3x16 motor plate screw)
 
+One of the parts I noticed failing was the X carriage. The hex nuts place on the front of the carriage started spinning in their slots. There was also a couple layer splits in the part when I removed it.
+
 ### Rainbow Matchstick LEDs
 
 **Links**:
-https://dfh.fm/products/rainbow-stick?variant=43340753666270
+- DFH - https://dfh.fm/products/rainbow-stick?variant=43340753666270
+- KB3D - https://west3d.com/products/rainbow-on-a-matchstick?_pos=10&_sid=57e17111c&_ss=r
+
 
 **Mounts**: https://www.printables.com/model/408214-matchstick-diffusers
+
+Becuase RGB LEDs
+
+### Rainbow Barf LED Skirts
+
+**Links**:
+- Model By Maple Leaf Makers - https://www.printables.com/model/408741-v0-rgb-skirt-logo
+- Fabreeko - https://www.fabreeko.com/products/rainbow-leds-pcb-by-whoppingpochard?_pos=1&_sid=cb992e68d&_ss=r
+- https://west3d.com/products/steathburner-led-upgrade-rgbw?_pos=1&_sid=57e17111c&_ss=r
 
 ### Cable Management Tracks
 These are printable versions of the tracks that LDO and other kits include.
 I recomend printing them in PETG or a similar material that can flex a bit before snapping. I tried printing them in sever ABSs including Fusion Deep Water blue and the guide fingers were very brittle.
 
-Voron User Mod Link: https://mods.vorondesign.com/detail/YTmSPTcWpctfTKQj3bOPg
+**Voron User Mod Link**: https://mods.vorondesign.com/detail/YTmSPTcWpctfTKQj3bOPg
+
+### Oriber Smart Filament Runout Sensor
+
+**Project Link**: https://www.orbiterprojects.com/orbiter-filament-sensor/
+
+I thought it would be fun to modify the stock V0.2r1 FRS foot and use a smart sensor instead. With the use of a ball bearing and 2 push buttons the Orbiter sensor takes advantage of Klipper Macros to allow features like pausing/resuming, auto extruder heating, auto purging and quick unloading with the press of a button.
+
+I'll upload the files and/or modifications when I feel it's in a good place.
+
+### V0 Hinged Spool holder and Rear Panel
+
+**Mod Link**: https://www.printables.com/model/548771-voron-0-hinged-back-panel-w-hinged-filament-spool-
+
+I found that I was frequently taking off the rear panel and often had to lay the printer on its back. This combo of mods makes it easy to work on the electronics of the printer and move it around without undoing a lot of screws.
