@@ -108,6 +108,24 @@ Images: https://github.com/bigtreetech/CB1/releases
 
 By Default the host name for the image will be "btt-cb1" and it can be accessed with "btt-cb1.local" if you don't know the IP Address for it yet.
 
+## Wiring
+
+The Kirigami Bed Frame alows splitting the wiring coming out of the bed so that the bed can be removed and worked on without being tethered to the printer.
+
+Voron recommends using Wago connectors to allow easily disconnecting the wires. The Kirigami bed mod includes mounts for the Wago connectors.
+
+Since the Formbot kit bed heater doesn't include an integrated thermal fuse it needs to be connected inline with one side of the bed wires.
+
+### Generic Formbot Wiring
+![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-Generic.png)
+
+An inline connector can be used to split the Thermistor wires under the bed.
+
+### Formbot Wiring + LDO Kirigami Wiring Kit
+![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-+-LDO-Wiring-Kit.png)
+
+The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED PCB. The LDO V0 repo has stls for mounting its PCBs and the wagos. See the Kirigami Manual for more info.
+
 ## Products Used
 ### Fabreeko cPIF V0.2 Printed Parts
 https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175
