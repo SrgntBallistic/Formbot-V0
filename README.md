@@ -130,13 +130,19 @@ The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED 
 ### Phaetus Dragon HF
 This is an optional upgrade on some Formbot listings. It offers single hand nozzle tightening and much higher Max Flow Rate compared to the default Formbot V6 CHC nozzle.
 
+![Dragon HF](Images/Wiring/v0.2r1-dragon-hf-01.jpg)
+
 ### Bondtech 0.4 CHT Nozzle
 This further increases the flow rate of the Dragon HF.
+
+![CHT Nozzle](Images/Wiring/v0.2r1-cht-nozzle.jpg)
 
 ### Fabreeko cPIF V0.2 Printed Parts
 https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175
 
 I found the cPIF parts pretty nice. I've since replaced a couple of of failed parts but I don't attribute the failures to the quality of the prints. More to some inherent issues in the part design
+
+![cPIF Parts](Images/Wiring/v0.2r1-cPIF-parts.jpg)
 
 ### EP2 Grease
 https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease
@@ -170,8 +176,8 @@ Since the Formbot Kit only comes with the frame I bought this wiring kit to get 
 - Fabreeko - https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895
 - DFH - https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
 
-2 Wago 221-412 connectors (Optional)
-Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
+- 2 Wago 221-412 connectors (Optional)
+- Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
 
 Printing ABS (as with most filament materials) can release VOCs (Volatile Organic Compounds) and has a noticabley more noxious smell than other materials like PLA. An active carbon filter can help clear absorb those orders/VOCs and move some air around the chamber for more efficient heating.
 
