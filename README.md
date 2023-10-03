@@ -3,6 +3,31 @@ Details/Documentation for the Formbot V0 Kit
 
 ![Formbot V0 Kit](https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Kit/formbot-v0-kit-main.jpg?raw=true)
 
+## Helpful info
+
+Most of this is set in the `printer.cfg` file I've provided
+
+### Max Motor Currents
+A/B - 1.5A
+Z - 0.65A
+E - 1.0A
+
+### 65% Run Currents
+Voron recommends 60-70% (0.6-0.7) to start
+I chose 65%. Increase as needed but try to stay below 80-90%
+
+Run Current = rated_motor_current * 0.707 * 0.65
+
+Plug the max currents above into the equation with your desired percentage
+A/B - 0.69 (NICE!)
+Z - 0.3A
+E - 0.46A
+
+### Thermistors
+Formbot Bed - "Generic 3950"
+Formbot V6 CHC Hotend - "ATC Semitec 104NT-4-R025H42G"
+Check Klipper docs for the correct sensor type based on your thermistor/hotend
+
 ## Features
 - Kirigami Bed Kit
 - BTT Pi V1.2
@@ -28,12 +53,14 @@ Aliexpress Listing: https://s.click.aliexpress.com/e/_Dk19GYN
 ![Kirigami Bed](https://github.com/christophmuellerorg/voron_0_kirigami_bed/blob/master/Images/stealth_beta.png?raw=true)
 GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
 
-Manual: 
+Manual: https://github.com/Kagee/kirigami-bed-manual
 
 ## BTT SKR Pico
 GitHub: https://github.com/bigtreetech/SKR-Pico
 
 Manual: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V1.0%20Instruction%20Manual.pdf
+
+**Flashing (From Pi without PC)**: https://docs.vorondesign.com/build/software/skrPico_klipper.html
 
 ## BTT V0 Display
 GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
@@ -105,6 +132,11 @@ https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
 Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
 
 ### Klipper Expander Board
+
+Board allows increased IO and power for mods and upgrades limited by BTT SKR Pico board.
+Neopixels
+Nevermore Fans
+
 
 **Links**:
 https://www.fabreeko.com/collections/v0/products/klipper-expander-board
