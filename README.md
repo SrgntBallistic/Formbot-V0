@@ -141,8 +141,8 @@ Since the Formbot Kit only comes with the frame I bought this wiring kit to get 
 **Link**: https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6
 
 2 5015 Fans
-https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895
-https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
+- Fabreeko - https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895
+- DFH - https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r
 
 2 Wago 221-412 connectors (Optional)
 Activated Charcoal Pellets - https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983
