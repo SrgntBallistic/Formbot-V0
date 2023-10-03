@@ -1,6 +1,9 @@
 # Formbot-V0
 Details/Documentation for the Formbot V0 Kit
 
+Check out my full build stream series here:
+https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx
+
 ![Formbot V0 Kit](Images/Kit/formbot-v0-kit-main.jpg)
 
 ## Helpful info
