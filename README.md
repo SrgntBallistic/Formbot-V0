@@ -1,7 +1,7 @@
 # Formbot-V0
 Details/Documentation for the Formbot V0 Kit
 
-![Formbot V0 Kit](https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Kit/formbot-v0-kit-main.jpg?raw=true)
+![Formbot V0 Kit](Images/Kit/formbot-v0-kit-main.jpg)
 
 ## Helpful info
 
@@ -127,6 +127,12 @@ An inline connector can be used to split the Thermistor wires under the bed.
 The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED PCB. The LDO V0 repo has stls for mounting its PCBs and the wagos. See the Kirigami Manual for more info.
 
 ## Products Used
+### Phaetus Dragon HF
+This is an optional upgrade on some Formbot listings. It offers single hand nozzle tightening and much higher Max Flow Rate compared to the default Formbot V6 CHC nozzle.
+
+### Bondtech 0.4 CHT Nozzle
+This further increases the flow rate of the Dragon HF.
+
 ### Fabreeko cPIF V0.2 Printed Parts
 https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175
 
@@ -152,6 +158,8 @@ The stock fans are probably the most noticable lower quality parts of this kit. 
 
 Since the Formbot Kit only comes with the frame I bought this wiring kit to get close to what comes in the LDO kit.
 
+![LDO V0 Wiring Kit](Images/Wiring/v0.2r1-ldo-kirigami-wiring-kit.jpg)
+
 ### Nevermore V6
 
 **Description**: 3D Printed Activated Charcoal Filter
@@ -172,10 +180,13 @@ Printing ABS (as with most filament materials) can release VOCs (Volatile Organi
 Board allows increased IO and power for mods and upgrades limited by BTT SKR Pico board
 - Neopixels
 - Nevermore Fans
+- Chamber Thermistor
+
+![Klipper Expander Board](Images/Wiring/v0.2r1-klipper-expander-board.jpg)
 
 **Links**:
-https://www.fabreeko.com/collections/v0/products/klipper-expander-board
-https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323da715&_ss=r
+- Fabreeko - https://www.fabreeko.com/collections/v0/products/klipper-expander-board
+- DFH - https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323da715&_ss=r
 
 ### Fabreeko Honeybadger V0 Metal Toolhead Carriage
 
@@ -187,14 +198,17 @@ Requires - 4 M2x4 screws (for carriage mount), M3x8 (replaces rear M3x16 motor p
 
 One of the parts I noticed failing was the X carriage. The hex nuts place on the front of the carriage started spinning in their slots. There was also a couple layer splits in the part when I removed it.
 
+![Fabreeko Metal Carriage](Images/Wiring/v0.2r1-fabreeko-metal-carriage.jpg)
+
 ### Rainbow Matchstick LEDs
 
 **Links**:
 - DFH - https://dfh.fm/products/rainbow-stick?variant=43340753666270
 - KB3D - https://west3d.com/products/rainbow-on-a-matchstick?_pos=10&_sid=57e17111c&_ss=r
 
-
 **Mounts**: https://www.printables.com/model/408214-matchstick-diffusers
+
+![Rainbow Matchsticks](Images/Wiring/v0.2r1-rainbow-matchsticks.jpg)
 
 Becuase RGB LEDs
 
@@ -205,15 +219,23 @@ Becuase RGB LEDs
 - Fabreeko - https://www.fabreeko.com/products/rainbow-leds-pcb-by-whoppingpochard?_pos=1&_sid=cb992e68d&_ss=r
 - https://west3d.com/products/steathburner-led-upgrade-rgbw?_pos=1&_sid=57e17111c&_ss=r
 
+![Rainbow LED Skirts](Images/Wiring/v0.2r1-rainbow-led-skirts.jpg)
+
 ### Cable Management Tracks
 These are printable versions of the tracks that LDO and other kits include.
 I recomend printing them in PETG or a similar material that can flex a bit before snapping. I tried printing them in sever ABSs including Fusion Deep Water blue and the guide fingers were very brittle.
 
 **Voron User Mod Link**: https://mods.vorondesign.com/detail/YTmSPTcWpctfTKQj3bOPg
 
+![Cable Managment Ducts 1](Images/Wiring/v0.2r1-cable-management-03.jpg)
+
+![Cable Management Ducts 2](Images/Wiring/v0.2r1-cable-management-04.jpg)
+
 ### Oriber Smart Filament Runout Sensor
 
 **Project Link**: https://www.orbiterprojects.com/orbiter-filament-sensor/
+
+![V0 Orbitor FRS](Images/Wiring/v0.2r1-orbitor-frs-01.jpg)
 
 I thought it would be fun to modify the stock V0.2r1 FRS foot and use a smart sensor instead. With the use of a ball bearing and 2 push buttons the Orbiter sensor takes advantage of Klipper Macros to allow features like pausing/resuming, auto extruder heating, auto purging and quick unloading with the press of a button.
 
