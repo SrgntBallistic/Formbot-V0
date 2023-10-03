@@ -108,6 +108,17 @@ Images: https://github.com/bigtreetech/CB1/releases
 
 By Default the host name for the image will be "btt-cb1" and it can be accessed with "btt-cb1.local" if you don't know the IP Address for it yet.
 
+## V0 Umbilical
+
+GitHub: GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical
+
+The V0 Umbilical is a great mod included in this kit. It makes wiring much easier. All of the signals/power to the toolhead goes through a toolhead PCB breakout board, down to the back of the frame via a pre-made wire harness, through a second frame pcb breakout board and finally down to the SKR Pico.
+
+Forbmot has precut and crimped most of the wires that go from the mainboard to the frame PCB. They've also made most of the wires that hook into the toolhead pCB the correct length as well.
+
+Be sure to print the V0 Toolhead PCB mount and strain relief found here:
+https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical/STLs/V0.2
+
 ## Wiring
 
 The Kirigami Bed Frame alows splitting the wiring coming out of the bed so that the bed can be removed and worked on without being tethered to the printer.
