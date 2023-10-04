@@ -58,7 +58,46 @@ GitHub: https://github.com/christophmuellerorg/voron_0_kirigami_bed
 
 Manual: https://github.com/Kagee/kirigami-bed-manual
 
-The Kirigami bed frame is a great mod/upgarde that comes wiht the kit. I had some trouble with the provided bed around it's thickness and the placement of the thermal fuse. I was able to get through all the issues with small DIY fixes. Other people have also noted they've run into these issues on the Voron Discord as well as the Kirigami GitHub. YMMV
+LDO Kirigami Docs: https://www.ldomotion.com/p/guide/18295873486461670
+
+The Kirigami bed frame is a great mod/upgarde that comes with the kit. It replaces multipe extrusions and printed pieces with a single rigid bed frame. The LDO Docs and Kirigami manual by Kagee provide some great info on general installation of the bed.
+
+I had some trouble with the provided bed. I was able to get through all the issues with small DIY fixes. Other people have also noted they've run into these issues on the Voron Discord as well as the Kirigami GitHub. YMMV
+
+- Frame Thickness
+  - My frame measured about 2.3-2.5mm
+    - I think this is due to the thickness of the paint on the frame
+  - Spec is 2mm, max tolerance of 0.2mm
+  - Caused the frame to not fit the printed Kirigami "stealth" Parts
+    - Stealth Nut Block
+    - Steath Chain Mount
+    - Can file the gaps in these parts or modify them in CAD and reprint if they don't fit
+    - Can also use some of the legacy non stealth parts
+- Frame holes
+  - Again likely due to the thickness of the paint
+  - Caused some slight over constraining of the frame when attached to the Z carriages
+  - My mounting screws barely fit through the holes
+  - No wiggle room to allow the frame and carriages to self align in a well enough that the frame and carriages would fall under their own weight
+    - Didn't completely bind the frame movement
+    - Just wasn't as smooth/free as after fixing
+  - Compounded with the frame not fitting in the nut block well
+  - Solved by filing out the holes in the frame
+    - This reduced the constaining and allowed the bed to fall easily
+- Thermal Fuse Location
+  - When I went to adjust the bed screws so they bed was just close enough to the nozzle I couldn't get the bed springs to compress enough
+  - The thermal fuse was running into the frame
+  - I could have reduced the Max Z so the bed wouldn't come up as high after homing
+  - But didn't want to lose any Z height
+  - Solved by filing away a tiny bit of material on the frame where the fuse was interferring
+
+![Thermal Fuse interference](Images/Wiring/Formbot-Kirigami-Thermal-Fuse.png)
+
+There are mounting slots in the Kirigami frame that allows forward/backward movement of the bed screws. The LDO Docs include a link to a set of spacers that allow locking the heated bed in the forwardmost or rear most position.
+
+Position these such that the nozzle is able to reach the full extent of the front and back of the bed. For me that was with the bed towards the rear.
+
+![Alt text](Images/Wiring/v0.2r1-ldo-kirigami-wiring-kit.jpg)
+
 
 ## BTT SKR Pico
 GitHub: https://github.com/bigtreetech/SKR-Pico
@@ -70,6 +109,17 @@ Manual: https://github.com/bigtreetech/SKR-Pico/blob/master/BTT%20SKR%20Pico%20V
 ![BTT SKR Pico](<Images/SKR Pico/btt-skr-pico.jpg>)
 
 The SKR Pico is a nice small footprint Main Board. It trades some IO/connectivity capability for its compact size. Ex: there's no input of the chamber thermistor that comes on the V0 Umbilical frame PCB. Also there's no extra fan ports to hook up fans for something like the Nevermore filter. An Extra MCU like the Klipper Expander would be necessary to get some of this IO back.
+
+### SKR Pico Compile Params
+There's some new compile params for the RP2040 in Klipper MenuConfig. Here's what worked for me
+- MCU: Raspberry Pi RP2040
+- Bootloader Offset: No bootloader (for USB, 16Kib for Canbus)
+- Flash chip: W25Q080 with CLKDIV 2
+- Communication interface (USB)
+- USB IDs: USB Serial number from CHIPID
+- GPIO pins: Empty
+
+![BTT SKR Pico Menuconfig](<Images/SKR Pico/new-klipper-menuconfig.png>)
 
 ## BTT V0 Display
 GitHub: https://github.com/VoronDesign/Voron-Hardware/tree/master/V0_Display
@@ -177,6 +227,18 @@ I originally greased the rails with White Lithium lubricant but bought this and 
 https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_ss=r
 
 The stock fans are probably the most noticable lower quality parts of this kit. I found the plastic a bit brittle and the leads didn't tuck into the their slots on the body. This cause them to get pinched when I put them in the Mini SB.
+
+### RC Style Hex Drivers
+
+I found using any type of ball end and some not very sharp edged hex/allen drivers or bits resulted in stripped screws. In particular on the Frame and rails screws which I ended up screwing and unscrewing numerous times.
+
+I tried my RC style hex drivers which have noticably sharper corners and noticed I didn't have any stripped screws.
+
+Most will probably work well. Fabreek sells a couple different sets
+
+Link: https://www.fabreeko.com/products/fabreeko-precision-screw-driver-set-of-5?variant=38183379828934
+
+![Fabreeko Hex Drivers](Images/Products/fabreeko-hex-drivers.png)
 
 ## My Mods
 
