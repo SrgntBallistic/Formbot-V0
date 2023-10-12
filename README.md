@@ -72,6 +72,7 @@ The Kirigami bed frame is a great mod/upgarde that comes with the kit. It replac
 
 I had some trouble with the provided bed. I was able to get through all the issues with small DIY fixes. Other people have also noted they've run into these issues on the Voron Discord as well as the Kirigami GitHub. YMMV
 
+
 - Frame Thickness
   - My frame measured about 2.3-2.5mm
     - I think this is due to the thickness of the paint on the frame
@@ -84,6 +85,8 @@ I had some trouble with the provided bed. I was able to get through all the issu
 
 ![Kirigami Frame Thickness](<Images/Kirigami Frame/frame-width.jpg>)
 
+GitHub Issue: <https://github.com/christophmuellerorg/voron_0_kirigami_bed/issues/16>
+
 - Frame holes
   - Again likely due to the thickness of the paint
   - Caused some slight over constraining of the frame when attached to the Z carriages
@@ -95,7 +98,9 @@ I had some trouble with the provided bed. I was able to get through all the issu
   - Solved by filing out the holes in the frame
     - This reduced the constaining and allowed the bed to fall easily
 
+![Kirigami Frame Nutblocks](<Images/Kirigami Frame/filed-and-non-stealth-nut-block.jpg>)
 
+Non Stealth (Left) and Filed Stealth Nutblock (Right)
 
 - Thermal Fuse Location
   - When I went to adjust the bed screws so they bed was just close enough to the nozzle I couldn't get the bed springs to compress enough
@@ -232,6 +237,18 @@ An inline connector can be used to split the Thermistor wires under the bed.
 ![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-+-LDO-Wiring-Kit.png)
 
 The LDO wiring kit includes 2 Wago mounts, a Thermistor breakout PCB and an LED PCB. A third wago is needed for the Formbot Thermal Fuse. The LDO V0 repo has stls for mounting its PCBs and the wagos. See the Kirigami Manual for more info.
+
+### BTT Pi Power
+
+Formbot provides a precut, pre-crimped wire harness to go from the BTT SKR Pico's top right pins over to the BTT Pi V1.2's VCC and GND GPIO Pins. It provides 2 5V wires and a single ground. I think these were design to work with an original Raspberry Pi 3/4 which has it's GPIO on the right.
+
+![Pi Power Wires Janky](Images/Wiring/btt-pi-power.jpg)
+
+Since the BTT Pi has it's GPIO on the left the only way to get the wires over to those pins I had to stretch them across both boards. I felt the looked bad and worried about the tension.
+
+![Pi Power Fixed](Images/Wiring/v0.2r1-cable-management-03.jpg)
+
+To solve this I used their JST connector and repinned/crimped the some longer wires with Dupont connectors on the opposite side. With the wires longer I can pas them under the edges of the boards and through the cable management channel in the middle
 
 ## Products Used
 
