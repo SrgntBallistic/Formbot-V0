@@ -34,11 +34,21 @@ Aliexpress Listing: <https://s.click.aliexpress.com/e/_Dk19GYN>
 Most of this is set in the `printer.cfg` file I've provided:
 <https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Firmware/bigtreetech-skr-pico-v1.0.cfg>
 
+### Motor Models
+
+Helpful for the Autotune TMC Klipper Plugin
+
+- A/B - MS14HS5P4150-11
+- z - LE174S-T0808-200-0-S-065
+- E - CSE14HRA1L410A-01
+
 ### Max Motor Currents
 
 - A/B - 1.5A
 - Z - 0.65A
 - E - 1.0A
+
+See <Images/Motors> folder for Motor drawings with current ratings.
 
 ### 65% Run Currents
 
@@ -67,6 +77,8 @@ GitHub: <https://github.com/christophmuellerorg/voron_0_kirigami_bed>
 Manual: <https://github.com/Kagee/kirigami-bed-manual>
 
 LDO Kirigami Docs: <https://www.ldomotion.com/p/guide/18295873486461670>
+
+The Formbot kit only comes with the Kirigami Frame. There's no LED/PCBs/Wago connectors, etc... included with the kit. You can source these yourself, find a partial wiring kit that includes them, or just leave them out and hard wire the bed components. See my My Mods section for the kit I bought.
 
 The Kirigami bed frame is a great mod/upgarde that comes with the kit. It replaces multipe extrusions and printed pieces with a single rigid bed frame. The LDO Docs and Kirigami manual by Kagee provide some great info on general installation of the bed.
 
@@ -296,6 +308,14 @@ Link: <https://www.fabreeko.com/products/fabreeko-precision-screw-driver-set-of-
 
 ![Fabreeko Hex Drivers](Images/Products/fabreeko-hex-drivers.png)
 
+### Flexible "Drone" USB Cable
+
+This low profile USB cable was usefult to connect the Klipper Expander board to the BTT Pi V1.2.
+
+Link: <https://github.com/andrewmcgr/klipper_tmc_autotune>
+
+![Flixible USB Cable](Images/Wiring/v0.2r1-flat-slim-usb.jpg)
+
 ## My Mods
 
 ### LDO Kirigami Wiring Kit
@@ -401,3 +421,31 @@ I'll upload the files and/or modifications when I feel it's in a good place.
 **Mod Link**: <https://www.printables.com/model/548771-voron-0-hinged-back-panel-w-hinged-filament-spool->
 
 I found that I was frequently taking off the rear panel and often had to lay the printer on its back. This combo of mods makes it easy to work on the electronics of the printer and move it around without undoing a lot of screws.
+
+## Tuning
+
+To tune the printer I used a combination of:
+
+- The Klipper Config Checks: <https://www.klipper3d.org/Config_checks.html>
+- Voron Guide Startup Checks: <https://docs.vorondesign.com/build/startup/>
+- Andrew Ellis' Tuning guide: <https://ellis3dp.com/Print-Tuning-Guide/>
+- OrcaSlicer's Calibration Prints/Tools: <https://github.com/SoftFever/OrcaSlicer/wiki/Calibration>
+- CNC Kitchen Max Volumetric Flow Rate Test: <>
+
+Things to tune
+
+- Extruder Rotation Distance (Ellis)
+- Build surface prep (Ellis)
+- First slayer Squish (Ellis)
+- Pressure Advance (Ellis/OrcaSlicer)
+- Tuned EM/Flow-Ratio for the main filaments I use (Ellis/OrcaSlicer)
+  - Polymaker ABS/ASA
+  - MH Build PLA
+  - MH Build ABS
+  - Fusion Heavy water Blue
+- Retraction (Ellis/Orca)
+- Max Volumetric Flow Rate (Ellis/OrcaSlicer/CNC Kitchen)
+- Motor Currents (Ellis)
+- Input shaper (Klipper Docs)
+  - Axes Ressonance
+  - Belt Tension
