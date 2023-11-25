@@ -430,6 +430,18 @@ I'll upload the files and/or modifications when I feel it's in a good place.
 
 I found that I was frequently taking off the rear panel and often had to lay the printer on its back. This combo of mods makes it easy to work on the electronics of the printer and move it around without undoing a lot of screws.
 
+## Vector3D V0 Assembly Jigs
+
+Link: <https://github.com/AdamV3D/V3D-Voron-Mods/tree/main/v0/Assembly%20Jigs/STL>
+
+I found these Jigs by Adam from Vector3D very helpful. There are some for spacing elements like the linear rails when attaching them to the extrusion.
+
+![Alt text](Images/Jigs/v3d-jigs-01.png)
+
+There's also jigs for spacing the Pulleys on the A/B Motor shafts which I found easier than the stock Voron tool
+
+![Alt text](Images/Jigs/v3d-jigs-02.png)
+
 ## Tuning
 
 To tune the printer I used a combination of:
