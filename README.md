@@ -9,6 +9,8 @@ Check out my full build stream series here:
 
 ## Features
 
+Note: For each of the features/mods please make sure to go to the repective documentation to download and print all of the necessary STLs.
+
 - Kirigami Bed Frame
 - BTT Pi V1.2
 - BTT SKR Pico
@@ -78,6 +80,8 @@ Manual: <https://github.com/Kagee/kirigami-bed-manual>
 
 LDO Kirigami Docs: <https://www.ldomotion.com/p/guide/18295873486461670>
 
+Remixed Formbot V0.2 Kirigami Frame Chain Mount: <https://www.printables.com/model/659415-kirigami-bed-chain-mount-remix-to-fit-formbot-kit>
+
 The Formbot kit only comes with the Kirigami Frame. There's no LED/PCBs/Wago connectors, etc... included with the kit. You can source these yourself, find a partial wiring kit that includes them, or just leave them out and hard wire the bed components. See my My Mods section for the kit I bought.
 
 The Kirigami bed frame is a great mod/upgarde that comes with the kit. It replaces multipe extrusions and printed pieces with a single rigid bed frame. The LDO Docs and Kirigami manual by Kagee provide some great info on general installation of the bed.
@@ -96,6 +100,10 @@ I had some trouble with the provided bed. I was able to get through all the issu
     - Can also use some of the legacy non stealth parts
 
 ![Kirigami Frame Thickness](<Images/Kirigami Frame/frame-width.jpg>)
+
+For the chain mount Voron Discord/Printables user Tommy Vercetti remixed the part so it fits well on the Formbot frame
+
+![Alt text](<Images/Kirigami Frame/chain-mount-remix-01.jpg>)
 
 GitHub Issue: <https://github.com/christophmuellerorg/voron_0_kirigami_bed/issues/16>
 
