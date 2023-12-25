@@ -365,6 +365,12 @@ This low profile USB cable was usefult to connect the Klipper Expander board to 
 
 Link: <https://s.click.aliexpress.com/e/_DlU7dwp>
 
+## Ferrules
+
+I try to use ferrules for every screw terminal whenever possible. If you don't have a ferrule set and/or crimper they're a great pickup for 3D Printer builders
+
+**Ali Link** - <https://s.click.aliexpress.com/e/_DnPAwm9>
+
 ### USB Camera
 
 The BTT Pi V1.2 doesn't have a traditional Pi Camera connector. I used a common ELP 4K Pi style USB camera instead. The quality is pretty clear
