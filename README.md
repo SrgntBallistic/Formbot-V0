@@ -2,8 +2,21 @@
 
 Details/Documentation for the Formbot V0 Kit
 
+## Detailed Review
+
+[![Formbot V0 Kit Review](https://i9.ytimg.com/vi_webp/wvUrcIFF510/maxresdefault.webp?v=655bcc38&sqp=COj3o6wG&rs=AOn4CLCU--7uDRowqMyePuQ7TeE18zmAgg)](https://www.youtube.com/watch?v=wvUrcIFF510)
+<https://www.youtube.com/watch?v=wvUrcIFF510>
+
+## Stream Series
+
 Check out my full build stream series here:
+[![Formbot V0 Kit Stream Series](https://i9.ytimg.com/vi/qOcGWsB79Wo/maxresdefault.jpg?v=64754eb6&sqp=COj3o6wG&rs=AOn4CLCsKiomD8mUKcq9tlk220hUlkq1wA)](https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx)
 <https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx>
+
+## Voron DB Entry
+
+[![Voron DB Entry](https://vorondb.com/media/printers/82/a545b00f2fffa2721e0726921a3618e2e23da7.png)](https://vorondb.com/printer/V0-3207)
+<https://vorondb.com/printer/V0-3207>
 
 ![Formbot V0 Kit](Images/Kit/formbot-v0-kit-main.jpg)
 
@@ -26,15 +39,20 @@ Note: For each of the features/mods please make sure to go to the repective docu
 - Vivedino 60W Silicone Bed Heater
 - Stainless Steel Hardware
 - Umbilical Board + Harness
-- Makerbeam XL Extrusion
+- **NOT** Makerbeam XL Extrusion!!! LDO Style
 - Meanwell 150W PSU
 
 Aliexpress Listing: <https://s.click.aliexpress.com/e/_Dk19GYN>
+Formbot Listing: <https://www.formbot3d.com/products/voron-v02-corexy-3d-printer-kit-with-high-quality-parts?DIST=RkFPFVk%3D>
+
+Disclaimer: Purchases made through some store links may provide some compensation to Ballistic Tech.
 
 ## Helpful info
 
 Most of this is set in the `printer.cfg` file I've provided:
 <https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Firmware/bigtreetech-skr-pico-v1.0.cfg>
+
+Replace the entire contents of your `printer.cfg` file with the contents of the file linked above. Follow the instructions in the comments to add the serial Ids for your MCU and Display.
 
 ### Motor Models
 
@@ -50,20 +68,26 @@ Helpful for the Autotune TMC Klipper Plugin
 - Z - 0.65A
 - E - 1.0A
 
-See <Images/Motors> folder for Motor drawings with current ratings.
+### Motor drawings with current ratings
+
+A/B - <https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Motors/a-b-motors-drawing.jpg>
+
+Z - <https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Motors/extruder-motor-drawing.jpg>
+
+E - <https://github.com/SrgntBallistic/Formbot-V0/blob/v0.2/Images/Motors/extruder-motor-drawing.jpg>
 
 ### 65% Run Currents
 
 Voron recommends 60-70% (0.6-0.7) to start
 I chose 65%. Increase as needed but try to stay below 80-90%
 
-Run Current = rated_motor_current * 0.707 * 0.65
+Run Current = rated_motor_current x 0.707 x 0.65
 
 Plug the max currents above into the equation with your desired percentage
 
-- A/B - 0.69 (NICE!)
-- Z - 0.3A
-- E - 0.46A
+- A/B - 0.65 x 0.707 x 1.5A = 0.69 (NICE!)
+- Z - 0.65 x 0.707 x 0.65A = 0.3A
+- E - 0.65 x 0.707 x 1.0A = 0.46A
 
 ### Thermistors
 
@@ -87,7 +111,6 @@ The Formbot kit only comes with the Kirigami Frame. There's no LED/PCBs/Wago con
 The Kirigami bed frame is a great mod/upgarde that comes with the kit. It replaces multipe extrusions and printed pieces with a single rigid bed frame. The LDO Docs and Kirigami manual by Kagee provide some great info on general installation of the bed.
 
 I had some trouble with the provided bed. I was able to get through all the issues with small DIY fixes. Other people have also noted they've run into these issues on the Voron Discord as well as the Kirigami GitHub. YMMV
-
 
 - Frame Thickness
   - My frame measured about 2.3-2.5mm
@@ -237,6 +260,8 @@ This is a general wiring diagram for a Formbot V0.2(r1) kit. The only thing spec
 Since the `V0.2` uses sensorless homing on the X-Y/A-B axes there's no endstops plugged into either of those inputs. In fact it's important to ensure that nothing is plugged into these inputs. Otherwise sensorless homing will not work.
 
 ### Kirigami Bed Wiring
+
+The Formbot kit does **NOT** include any wago or inline conectors!
 
 The Kirigami Bed Frame alows splitting the wiring coming out of the bed so that the bed can be removed and worked on without being tethered to the printer.
 
