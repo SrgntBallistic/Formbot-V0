@@ -322,7 +322,7 @@ This further increases the flow rate of the Dragon HF.
 
 ### Fabreeko cPIF V0.2 Printed Parts
 
-<https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175>
+**Fabreeko cPIF**: <https://www.fabreeko.com/collections/v0/products/voron-v0-2-s1-printed-parts-by-pif?variant=43678271570175>
 
 I found the cPIF parts pretty nice. I've since replaced a couple of of failed parts but I don't attribute the failures to the quality of the prints. More to some inherent issues in the part design
 
@@ -330,17 +330,15 @@ I found the cPIF parts pretty nice. I've since replaced a couple of of failed pa
 
 ### EP2 Grease
 
-<https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease>
+**Fabreeko Grease**: <https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease>
 
 I originally greased the rails with White Lithium lubricant but bought this and regreased them when I redid the frame.
 
 ### GDS Time Fan Mini Stealthburner Fan Kit
 
-DFH Fan Kit - <https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_ss=r>
-
-Ali 3010 Axial - <https://s.click.aliexpress.com/e/_Dl3Eglj>
-
-Ali 3010 Blower - <https://s.click.aliexpress.com/e/_DCMx5xj>
+- **DFH Fan Kit**: <https://dfh.fm/products/voron-mini-stealthburner-fan-kit?_pos=7&_sid=66ce4f1ac&_ss=r>
+- **Ali 3010 Axial**: <https://s.click.aliexpress.com/e/_Dl3Eglj>
+- **Ali 3010 Blower**: <https://s.click.aliexpress.com/e/_DCMx5xj>
 
 The stock fans are probably the most noticable lower quality parts of this kit. I found the plastic a bit brittle and the leads didn't tuck into the their slots on the body. This cause them to get pinched when I put them in the Mini SB.
 
@@ -352,50 +350,53 @@ I tried my RC style hex drivers which have noticably sharper corners and noticed
 
 Most will probably work well. Fabreek sells a couple different sets
 
-**Fabreeko Set**: <https://www.fabreeko.com/products/fabreeko-precision-screw-driver-set-of-5?variant=38183379828934>
+**Product Links**:
 
-**Ali 4PC Set**: <https://s.click.aliexpress.com/e/_Dn590Zb>
+- **Fabreeko Set**: <https://www.fabreeko.com/products/fabreeko-precision-screw-driver-set-of-5?variant=38183379828934>
+- **Ali 4PC Set**: <https://s.click.aliexpress.com/e/_Dn590Zb>
 
 ![Fabreeko Hex Drivers](Images/Products/fabreeko-hex-drivers.png)
+
+**Model Links**:
+
+- **Fabreeko Driver Set Gridfinity Holder: <https://www.printables.com/model/270299-gridfinity-fabreeko-screwdriver-tool-holder>
 
 ### Flexible "Drone" USB Cable
 
 This low profile USB cable was usefult to connect the Klipper Expander board to the BTT Pi V1.2. They can be configured with any type of end connectors. I used a 90 Degree Micro USB on one end and a standard Type A USB on the other
 ![Flixible USB Cable](Images/Wiring/v0.2r1-flat-slim-usb.jpg)
 
-Link: <https://s.click.aliexpress.com/e/_DlU7dwp>
+**Ali Link**: <https://s.click.aliexpress.com/e/_DlU7dwp>
 
-## Ferrules
+### Ferrules
 
 I try to use ferrules for every screw terminal whenever possible. If you don't have a ferrule set and/or crimper they're a great pickup for 3D Printer builders
 
-**Ali Link** - <https://s.click.aliexpress.com/e/_DnPAwm9>
+**Ali Link**: <https://s.click.aliexpress.com/e/_DnPAwm9>
 
 ### USB Camera
 
 The BTT Pi V1.2 doesn't have a traditional Pi Camera connector. I used a common ELP 4K Pi style USB camera instead. The quality is pretty clear
 
+**Product Links**:
+
 **Ali 4K 170**: <https://s.click.aliexpress.com/e/_DBiftLT>
 
-Mount: <https://www.printables.com/model/656391-voron-02-tophat-corner-camera-mount/>
+**Model Link**: <https://www.printables.com/model/656391-voron-02-tophat-corner-camera-mount/>
 
 ![Camera + Mount](Images/Camera/camera-mounted-01.png)
-
-## My Mods
 
 ### LDO Kirigami Wiring Kit
 
 **Description**: "LDO Krirgami LED PCB, LDO Kirigami Breakout PCB, LDO Breakout Wire Kit, Wago 221-412 x 2 For use with Kirigami Beds"
 
-**DFH Kit Full Wiring Kit**: <https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit>
+**Product Links**:
 
-**West3D Kit PCB + Wagos**: <https://west3d.com/products/v0-2-kirigami-led-and-breakout-pcb-with-wagos>
-
-**Fabreeko LDO Kirgami LED + PCB**: <https://www.fabreeko.com/products/v0-2-kirigami-led-and-breakout-by-shammy>
-
-***Ali Wagos 5Pc**: <https://s.click.aliexpress.com/e/_DB8wSuh>
-
-***Ali NeoPixel**: <https://s.click.aliexpress.com/e/_DdBNT49>
+- **DFH Kit Full Wiring Kit**: <https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit>
+- **West3D Kit PCB + Wagos**: <https://west3d.com/products/v0-2-kirigami-led-and-breakout-pcb-with-wagos>
+- **Fabreeko LDO Kirgami LED + PCB**: <https://www.fabreeko.com/products/v0-2-kirigami-led-and-breakout-by-shammy>
+- **Ali Wagos 5Pc**: <https://s.click.aliexpress.com/e/_DB8wSuh>
+- **Ali Single NeoPixel PCB**: <https://s.click.aliexpress.com/e/_DdBNT49>
 
 Since the Formbot Kit only comes with the frame I bought this wiring kit to get close to what comes in the LDO kit.
 
@@ -405,19 +406,15 @@ Since the Formbot Kit only comes with the frame I bought this wiring kit to get 
 
 **Description**: 3D Printed Activated Charcoal Filter
 
-**Link**: <https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6>
+**Mod Link**: <https://github.com/nevermore3d/Nevermore_Micro/tree/master/V6>
 
-2 5015 Fans
+**Product Links**:
 
-- **Fabreeko** - <https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895>
-- **DFH** - <https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r>
-- **Ali** - <https://s.click.aliexpress.com/e/_DBJycYD>
-
-2 Wago 221-412 connectors (Optional)
-
-- **Ali 5pc** - <https://s.click.aliexpress.com/e/_DB8wSuh>
-
-- **Activated Charcoal Pellets** - <https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983>
+- **Fabreeko 5015 Fans**: <https://www.fabreeko.com/products/5015-blower-fan-by-honeybadger?_pos=1&_psq=50151&_ss=e&_v=1.0&variant=43628023152895>
+- **DFH 5015 Fans**: <https://dfh.fm/products/5015-24v-dual-ball-blower?_pos=1&_sid=426120d23&_ss=r>
+- **Ali 5015 Fans**: <https://s.click.aliexpress.com/e/_DBJycYD>
+- **Ali 5pc Wagos**: <https://s.click.aliexpress.com/e/_DB8wSuh>
+- **Fabreeko Activated Charcoal Pellets**: <https://www.fabreeko.com/products/nevermore-carbon?_pos=1&_sid=6691ede3b&_ss=r&variant=43205733449983>
 
 Printing ABS (as with most filament materials) can release VOCs (Volatile Organic Compounds) and has a noticabley more noxious smell than other materials like PLA. An active carbon filter can help clear absorb those orders/VOCs and move some air around the chamber for more efficient heating.
 
@@ -431,15 +428,15 @@ Board allows increased IO and power for mods and upgrades limited by BTT SKR Pic
 
 ![Klipper Expander Board](Images/Wiring/v0.2r1-klipper-expander-board.jpg)
 
-**Links**:
+**Product Links**:
 
-- **Fabreeko** - <https://www.fabreeko.com/collections/v0/products/klipper-expander-board>
-- **DFH** - <https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323da715&_ss=r>
-- **Ali** - <https://s.click.aliexpress.com/e/_DdIuJM5>
+- **Fabreeko**: <https://www.fabreeko.com/collections/v0/products/klipper-expander-board>
+- **DFH**: <https://dfh.fm/products/klipper-expander-for-voron-3d-printers?_pos=1&_sid=9323da715&_ss=r>
+- **Ali**: <https://s.click.aliexpress.com/e/_DdIuJM5>
 
 ### Fabreeko Honeybadger V0 Metal Toolhead Carriage
 
-**Link**: <https://www.fabreeko.com/collections/v0/products/v0-2-metal-toolhead-carriage-for-v0-2-by-honeybadger?variant=44164192338175>
+**Product Link**: <https://www.fabreeko.com/collections/v0/products/v0-2-metal-toolhead-carriage-for-v0-2-by-honeybadger?variant=44164192338175>
 
 **Variation**: MGN7H
 
@@ -451,11 +448,12 @@ One of the parts I noticed failing was the X carriage. The hex nuts place on the
 
 ### Rainbow Matchstick LEDs
 
-**Links**:
+**Product Links**:
 
-- **DFH** - <https://dfh.fm/products/rainbow-stick?variant=43340753666270>
-- **KB3D** - <https://west3d.com/products/rainbow-on-a-matchstick?_pos=10&_sid=57e17111c&_ss=r>
-- **Ali** - <https://s.click.aliexpress.com/e/_DdljyRf>
+- **DFH**: <https://dfh.fm/products/rainbow-stick?variant=43340753666270>
+- **West3D**: <https://west3d.com/products/rainbow-on-a-matchstick?_pos=10&_sid=57e17111c&_ss=r>
+- **Fabreeko**: <https://www.fabreeko.com/products/daylight-disco-stick-rgb?variant=43841072922879>
+- **Ali**: <https://s.click.aliexpress.com/e/_DdljyRf>
 
 **Mounts Model By MapleLeafMakers**: <https://www.printables.com/model/408214-matchstick-diffusers>
 
@@ -465,14 +463,36 @@ Becuase RGB LEDs
 
 ### Rainbow Barf LED Skirts
 
-**Links**:
+**Product Links**:
 
-- **Mounts Model By MapleLeafMakers** - <https://www.printables.com/model/408741-v0-rgb-skirt-logo>
-- **Fabreeko** - <https://www.fabreeko.com/products/rainbow-leds-pcb-by-whoppingpochard?_pos=1&_sid=cb992e68d&_ss=r>
-- **West3D** - <https://west3d.com/products/steathburner-led-upgrade-rgbw?_pos=1&_sid=57e17111c&_ss=r>
-- **DFH** - <https://dfh.fm/products/rainbow-barf-led-pcb-by-whoppingpochard-and-vinnycordeiro>
+- **Fabreeko**: <https://www.fabreeko.com/products/rainbow-leds-pcb-by-whoppingpochard?_pos=1&_sid=cb992e68d&_ss=r>
+- **West3D**: <https://west3d.com/products/steathburner-led-upgrade-rgbw?_pos=1&_sid=57e17111c&_ss=r>
+- **DFH**: <https://dfh.fm/products/rainbow-barf-led-pcb-by-whoppingpochard-and-vinnycordeiro>
+
+**Model Links**:
+
+- **Mounts Model By MapleLeafMakers**: <https://www.printables.com/model/408741-v0-rgb-skirt-logo>
 
 ![Rainbow LED Skirts](Images/Wiring/v0.2r1-rainbow-led-skirts.jpg)
+
+### Oriber Smart Filament Runout Sensor
+
+**Orbiter Extruder Project Link**: <https://www.orbiterprojects.com/orbiter-filament-sensor/>
+
+![V0 Orbitor FRS](Images/Wiring/v0.2r1-orbitor-frs-01.jpg)
+
+I thought it would be fun to modify the stock V0.2r1 FRS foot and use a smart sensor instead. With the use of a ball bearing and 2 push buttons the Orbiter sensor takes advantage of Klipper Macros to allow features like pausing/resuming, auto extruder heating, auto purging and quick unloading with the press of a button.
+
+**My V0 Orbiter Foot Model [WIP]**: <https://www.printables.com/model/602670-voron-v02r1-foot-orbiter-filament-sensor-wip>
+
+**Product Links**:
+
+- **Ali Sensor**: <https://s.click.aliexpress.com/e/_DeiGEDb>
+- **KB3D Sensor**: <https://kb-3d.com/store/probes-switches/825-ldo-orbiter-v1-15-filament-sensor-kit-v22-1652646845812.html>
+- **West3D**: <https://west3d.com/products/orbiter-filament-sensor-complete-kit-for-orbiter-extruder-v20-by-ldo-motors>
+- **Fabreeko**: <https://www.fabreeko.com/products/orbiter-2-0-sensor?_pos=1&_sid=6352f305f>
+
+## Mods Used
 
 ### Stealth Handles
 
@@ -507,18 +527,6 @@ I recomend printing them in PETG or a similar material that can flex a bit befor
 
 ![Cable Management Ducts 2](Images/Wiring/v0.2r1-cable-management-04.jpg)
 
-### Oriber Smart Filament Runout Sensor
-
-**Project Link**: <https://www.orbiterprojects.com/orbiter-filament-sensor/>
-
-![V0 Orbitor FRS](Images/Wiring/v0.2r1-orbitor-frs-01.jpg)
-
-I thought it would be fun to modify the stock V0.2r1 FRS foot and use a smart sensor instead. With the use of a ball bearing and 2 push buttons the Orbiter sensor takes advantage of Klipper Macros to allow features like pausing/resuming, auto extruder heating, auto purging and quick unloading with the press of a button.
-
-- **Model [WIP]** - <https://www.printables.com/model/602670-voron-v02r1-foot-orbiter-filament-sensor-wip>
-- **Ali Sensor** - <https://s.click.aliexpress.com/e/_DeiGEDb>
-- **KB3D Sensor** - <https://kb-3d.com/store/probes-switches/825-ldo-orbiter-v1-15-filament-sensor-kit-v22-1652646845812.html>
-
 ### V0 Hinged Spool holder and Rear Panel
 
 **Mod Link**: <https://www.printables.com/model/548771-voron-0-hinged-back-panel-w-hinged-filament-spool->
@@ -546,7 +554,7 @@ To tune the printer I used a combination of:
 - Voron Sensorless Setup: <https://docs.vorondesign.com/community/howto/clee/sensorless_xy_homing.html>
 - Andrew Ellis' Tuning guide: <https://ellis3dp.com/Print-Tuning-Guide/>
 - OrcaSlicer's Calibration Prints/Tools: <https://github.com/SoftFever/OrcaSlicer/wiki/Calibration>
-- CNC Kitchen Max Volumetric Flow Rate Test: <>
+- CNC Kitchen Max Volumetric Flow Rate Test: <https://hotend-flow-tester.netlify.app/>
 
 Things to tune
 
@@ -565,4 +573,4 @@ Things to tune
 - Input shaper (Klipper Docs)
   - Axes Ressonance
   - Belt Tension
-  - **Ali Link** - <https://s.click.aliexpress.com/e/_DeZPSbP>
+  - **Ali Fysetc Portable Input Shaper** - <https://s.click.aliexpress.com/e/_DeZPSbP>
