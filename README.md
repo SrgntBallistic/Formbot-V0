@@ -4,13 +4,13 @@ Details/Documentation for the Formbot V0 Kit
 
 ## Detailed Review
 
-[![Formbot V0 Kit Review](https://i9.ytimg.com/vi_webp/wvUrcIFF510/maxresdefault.webp?v=655bcc38&sqp=COj3o6wG&rs=AOn4CLCU--7uDRowqMyePuQ7TeE18zmAgg)](https://www.youtube.com/watch?v=wvUrcIFF510)
+[![Formbot V0 Kit Review](Images/Videos/review-thumbnail.png)](https://www.youtube.com/watch?v=wvUrcIFF510)
 <https://www.youtube.com/watch?v=wvUrcIFF510>
 
 ## Stream Series
 
 Check out my full build stream series here:
-[![Formbot V0 Kit Stream Series](https://i9.ytimg.com/vi/qOcGWsB79Wo/maxresdefault.jpg?v=64754eb6&sqp=COj3o6wG&rs=AOn4CLCsKiomD8mUKcq9tlk220hUlkq1wA)](https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx)
+[![Formbot V0 Kit Stream Series](Images/Videos/stream-thumbnail.png)](https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx)
 <https://www.youtube.com/playlist?list=PLwWNdxHVFVf1DbI2nGngUB0O9TWeXn2Sx>
 
 ## Voron DB Entry
