@@ -387,7 +387,11 @@ Mount: <https://www.printables.com/model/656391-voron-02-tophat-corner-camera-mo
 
 **Description**: "LDO Krirgami LED PCB, LDO Kirigami Breakout PCB, LDO Breakout Wire Kit, Wago 221-412 x 2 For use with Kirigami Beds"
 
-**DFH Kit**: <https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit>
+**DFH Kit Full Wiring Kit**: <https://dfh.fm/products/voron-v0-kirigami-bed-wiring-and-led-kit>
+
+**West3D Kit PCB + Wagos**: <https://west3d.com/products/v0-2-kirigami-led-and-breakout-pcb-with-wagos>
+
+**Fabreeko LDO Kirgami LED + PCB**: <https://www.fabreeko.com/products/v0-2-kirigami-led-and-breakout-by-shammy>
 
 ***Ali Wagos 5Pc**: <https://s.click.aliexpress.com/e/_DB8wSuh>
 
@@ -466,6 +470,7 @@ Becuase RGB LEDs
 - **Mounts Model By MapleLeafMakers** - <https://www.printables.com/model/408741-v0-rgb-skirt-logo>
 - **Fabreeko** - <https://www.fabreeko.com/products/rainbow-leds-pcb-by-whoppingpochard?_pos=1&_sid=cb992e68d&_ss=r>
 - **West3D** - <https://west3d.com/products/steathburner-led-upgrade-rgbw?_pos=1&_sid=57e17111c&_ss=r>
+- **DFH** - <https://dfh.fm/products/rainbow-barf-led-pcb-by-whoppingpochard-and-vinnycordeiro>
 
 ![Rainbow LED Skirts](Images/Wiring/v0.2r1-rainbow-led-skirts.jpg)
 
