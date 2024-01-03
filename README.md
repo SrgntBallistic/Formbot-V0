@@ -214,6 +214,12 @@ Features:
 
 Small simple display with a neopixel onboard to change the LCD Color.
 
+![V0 Display with Smear](<Images/BTT V0 Display/v0-display-smear-before.png>)
+
+Some OLED displays can have a bit of a "smearing" effect on them. There is a line in the `[mcu display]` section of the config you can uncomment and modify to help with that. Timmit the developer of the V0 Display recommends a value of 31 (0 is the default).
+
+![V0 Display Fixed](<Images/BTT V0 Display/v0-display-smear-fixed.png>)
+
 ## BTT Pi V1.2
 
 GitHub: <https://github.com/bigtreetech/BTT-Pi>
@@ -310,7 +316,7 @@ Connecting the Pico and Pi via UART opens up a spare port again to help with thi
 
 As noted in the section above the Formbot kit powers the the Pi via two +5V and a single GND set of wires going from a JST port on the SKR Pico to the GPIO Pins on the Pi. This is actually the UART comms header on the SKR Pico so we can easily add two wires (Green and Yellow in the Wiring Diagram) to free up the USB Port.
 
-One end needs to be crimped with a JST XH connector and the other needs to be female duponts. Since this will only be transmitting data the guage isn't hugely important. You can use already crimped female-to-female Dumpont bread board wires cut to size and crimped with a JST on one end. OR in my case take a pre-crimped JST wire and crimp a Dupont (harder to crimp) connector to the other end.
+One end needs to be crimped with a JST XH connector and the other needs to be female duponts. Since this will only be transmitting data the guage isn't hugely important. You can use already crimped female-to-female Dupont bread board wires cut to size and crimped with a JST on one end. OR in my case take a pre-crimped JST wire and crimp a Dupont (harder to crimp) connector to the other end.
 
 Then plug the extra two wires into the 5 pin JST connector housing on one end, and the Dupont connects onto the pins adjacent to the power pins on the Pi GPIO.
 
