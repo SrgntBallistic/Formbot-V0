@@ -60,7 +60,7 @@ Replace the entire contents of your `printer.cfg` file with the contents of the 
 Helpful for the Autotune TMC Klipper Plugin
 
 - A/B - MS14HS5P4150-11
-- z - LE174S-T0808-200-0-S-065
+- Z - LE174S-T0808-200-0-S-065
 - E - CSE14HRA1L410A-01
 
 Link: https://github.com/andrewmcgr/klipper_tmc_autotune
@@ -217,6 +217,8 @@ Small simple display with a neopixel onboard to change the LCD Color.
 ![V0 Display with Smear](<Images/BTT V0 Display/v0-display-smear-before.png>)
 
 Some OLED displays can have a bit of a "smearing" effect on them. There is a line in the `[mcu display]` section of the config you can uncomment and modify to help with that. Timmit the developer of the V0 Display recommends a value of 31 (0 is the default).
+
+![V0 Display Smear Config Fix](<Images/BTT V0 Display/v0-display-smear-config-fix.png>)
 
 ![V0 Display Fixed](<Images/BTT V0 Display/v0-display-smear-fixed.png>)
 
