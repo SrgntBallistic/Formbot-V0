@@ -214,6 +214,8 @@ Features:
 
 Small simple display with a neopixel onboard to change the LCD Color.
 
+### Fixing OLED Lines/Smears
+
 ![V0 Display with Smear](<Images/BTT V0 Display/v0-display-smear-before.png>)
 
 Some OLED displays can have a bit of a "smearing" effect on them. There is a line in the `[mcu display]` section of the config you can uncomment and modify to help with that. Timmit the developer of the V0 Display recommends a value of 31 (0 is the default).
