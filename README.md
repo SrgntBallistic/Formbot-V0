@@ -302,6 +302,26 @@ Since the BTT Pi has it's GPIO on the left the only way to get the wires over to
 
 To solve this I used their JST connector and repinned/crimped the some longer wires with Dupont connectors on the opposite side. With the wires longer I can pas them under the edges of the boards and through the cable management channel in the middle
 
+### BTT Pi to BTT SKR Pico Uart Communication
+
+By default the Formbot kit connects the BTT Pi and SKR Pico by USB cable. This works well and is easily set up. However, it does limit the number of open USB ports to two (one is also taken up by the V0 Display). Since I also added a Klipper Exander and USB camera that meant all four ports were used. Leaving none for things like a USB Input Shaper Accelerometer.
+
+Connecting the Pico and Pi via UART opens up a spare port again to help with this.
+
+As noted in the section above the Formbot kit powers the the Pi via two +5V and a single GND set of wires going from a JST port on the SKR Pico to the GPIO Pins on the Pi. This is actually the UART comms header on the SKR Pico so we can easily add two wires (Green and Yellow in the Wiring Diagram) to free up the USB Port.
+
+One end needs to be crimped with a JST XH connector and the other needs to be female duponts. Since this will only be transmitting data the guage isn't hugely important. You can use already crimped female-to-female Dumpont bread board wires cut to size and crimped with a JST on one end. OR in my case take a pre-crimped JST wire and crimp a Dupont (harder to crimp) connector to the other end.
+
+Then plug the extra two wires into the 5 pin JST connector housing on one end, and the Dupont connects onto the pins adjacent to the power pins on the Pi GPIO.
+
+![UART Wiring](Images/Wiring/formbot-voron-v0.2r1-kit-uart-wiring-diagram.png)
+
+You'll need to shut down the Pi remove the SD Card, plug it into a computer and open the `BoardEnv.txt` file on the boot sector of the card. In that file change the line with `console=`and set it to `console=serial` to tell the Pi to talk via it's UART interface.
+
+From there you can put reconfigure the Pico firmware to use `UART0 GPIO1/GPIO0` for it's communication interface. Flash it via USB. Disconnect the USB and connect it via the new UART cable. Finally in your `printer.cfg` change the `serial:` portion of the MCU definition to `/dev/ttyS0`.
+
+You should then be able to reboot the Pico and communication between the board and the Pi should work as normal
+
 ## Products Used
 
 ### Phaetus Dragon HF
