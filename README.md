@@ -360,7 +360,11 @@ I found the cPIF parts pretty nice. I've since replaced a couple of of failed pa
 
 ### EP2 Grease
 
-**Fabreeko Grease**: <https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease>
+**Product Links**:
+
+- **Fabreeko Grease**: <https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease>
+- **KB3D Grease**: <https://kb-3d.com/store/tools-equipment/497-linear-rail-carriage-lubrication-kit-mobilux-ep2-20ml-1645909620080.html>
+- **West3D Grease**: <https://west3d.com/products/mobil-mobilux-ep2-10ml-filled-syringe-with-blunt-tip>
 
 I originally greased the rails with White Lithium lubricant but bought this and regreased them when I redid the frame.
 
@@ -396,7 +400,7 @@ Most will probably work well. Fabreek sells a couple different sets
 This low profile USB cable was usefult to connect the Klipper Expander board to the BTT Pi V1.2. They can be configured with any type of end connectors. I used a 90 Degree Micro USB on one end and a standard Type A USB on the other
 ![Flixible USB Cable](Images/Wiring/v0.2r1-flat-slim-usb.jpg)
 
-**Ali Link**: <https://s.click.aliexpress.com/e/_DlU7dwp>
+**Ali Link**: <https://s.click.aliexpress.com/e/_DCxyxhJ>
 
 ### Ferrules
 
