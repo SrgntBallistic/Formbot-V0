@@ -63,7 +63,7 @@ Helpful for the Autotune TMC Klipper Plugin
 - Z - LE174S-T0808-200-0-S-065
 - E - CSE14HRA1L410A-01
 
-Link: https://github.com/andrewmcgr/klipper_tmc_autotune
+Link: <https://github.com/andrewmcgr/klipper_tmc_autotune>
 
 ### Max Motor Currents
 
@@ -97,6 +97,42 @@ Plug the max currents above into the equation with your desired percentage
 - Formbot Bed - "Generic 3950"
 - Formbot V6 CHC Hotend - "ATC Semitec 104NT-4-R025H42G"
 - Check Klipper docs for the correct sensor type based on your thermistor/hotend
+
+### Extrusion Identification
+
+All of the extrusions in the Formbot V0 kit are tapped on both ends. This means that using the V0 Manual extrusion identification diagrams can be a bit confusing. For 4 sets of extrusions where the manual differentiates them by tapped ends, you can consider those extrusions to be identical.
+
+![Extrusions Identification](Images/Kit/formbot-v0-kit-extrusions-organized.jpg)
+
+#### Identical Extrusions
+
+- A/B
+- C/H
+
+### No Drop Nuts
+
+![No Drop Nuts](Images/Mods/no-drop-nuts.png)
+
+No drop nuts are very helpful for preventing preloaded M3 Hex Nuts from sliding around or falling out of the frame during assembly. They also allow you to pre align the nuts and hold them in place while you attatch parts to the frame.
+
+The Formbot Extrusions are NOT MakerBeamXL profiles. They are closer to LDO's 1515 Extrusion. As such the no drop hex nut mods designed for LDO's kits work well with the Formbot kit.
+
+![Formbot vs LDO Extrusion](Images/Kit/formbot-v0-kit-extrusion-vs-ldo.jpg)
+Above: Left - Formbot Extrusion, Right - LDO Extrusion
+
+#### Be Careful
+
+I used them and found them very helpful. One big thing to note is that using the normal no drop nuts for the magnetic door latch can cause an issue. The spacing for these printed parts is such that using no drop carriers will cause them to be too far apart.
+
+![V0 Manual Door Latch](Images/Mods/v0-manual-door-magnets.png)
+
+I used normal no drop nuts for these and had to essentially break apart the nut carriers to have them align with magnetic door latch parts.
+
+There is a specific version of the No Drop Nut that is designed to be used here:
+
+<https://github.com/VoronDesign/VoronUsers/blob/master/printer_mods/zruncho/V0_No_Drop_Nuts/stl/NoDropNut_Door_Latch_x2.stl>
+
+![Door Latch No Drop Nuts](Images/Mods/door-latch-no-drop-nuts.png)
 
 ## Kirigami Bed
 
