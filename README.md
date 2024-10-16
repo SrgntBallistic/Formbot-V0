@@ -143,9 +143,9 @@ Manual: <https://github.com/Kagee/kirigami-bed-manual>
 
 LDO Kirigami Docs: <https://www.ldomotion.com/p/guide/18295873486461670>
 
-Remixed Formbot V0.2 Kirigami Frame Nutblock: <https://www.printables.com/model/659769-kirigami-bed-stealth-nut-block-remix-to-fit-formbo>
+Remixed Formbot V0.2 Kirigami Frame Nutblock By @manisto: <https://www.printables.com/model/837960-kirigami-bed-nut-block-for-voron-v02>
 
-Remixed Formbot V0.2 Kirigami Frame Chain Mount: <https://www.printables.com/model/659415-kirigami-bed-chain-mount-remix-to-fit-formbot-kit>
+Remixed Formbot V0.2 Kirigami Frame Chain Mount: **User Deleted. Need New Model**
 
 The Formbot kit only comes with the Kirigami Frame. There's no LED/PCBs/Wago connectors, etc... included with the kit. You can source these yourself, find a partial wiring kit that includes them, or just leave them out and hard wire the bed components. See my My Mods section for the kit I bought.
 
@@ -399,7 +399,7 @@ I found the cPIF parts pretty nice. I've since replaced a couple of of failed pa
 **Product Links**:
 
 - **Fabreeko Grease**: <https://www.fabreeko.com/collections/v0/products/mobilux-ep2-grease>
-- **KB3D Grease**: <https://kb-3d.com/store/tools-equipment/497-linear-rail-carriage-lubrication-kit-mobilux-ep2-20ml-1645909620080.html>
+- **KB3D Grease**: <https://kb-3d.com/store/tools-equipment/497-linear-rail-carriage-lubrication-kit-mobilux-ep2-20ml-1645909620080.html?affp=15304>
 - **West3D Grease**: <https://west3d.com/products/mobil-mobilux-ep2-10ml-filled-syringe-with-blunt-tip>
 
 I originally greased the rails with White Lithium lubricant but bought this and regreased them when I redid the frame.
@@ -558,7 +558,7 @@ I thought it would be fun to modify the stock V0.2r1 FRS foot and use a smart se
 **Product Links**:
 
 - **Ali Sensor**: <https://s.click.aliexpress.com/e/_DeiGEDb>
-- **KB3D Sensor**: <https://kb-3d.com/store/probes-switches/825-ldo-orbiter-v1-15-filament-sensor-kit-v22-1652646845812.html>
+- **KB3D Sensor**: <https://kb-3d.com/store/probes-switches/825-ldo-orbiter-v1-15-filament-sensor-kit-v22-1652646845812.html?affp=15304>
 - **West3D**: <https://west3d.com/products/orbiter-filament-sensor-complete-kit-for-orbiter-extruder-v20-by-ldo-motors>
 - **Fabreeko**: <https://www.fabreeko.com/products/orbiter-2-0-sensor?_pos=1&_sid=6352f305f>
 
