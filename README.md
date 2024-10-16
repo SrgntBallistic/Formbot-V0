@@ -312,6 +312,10 @@ This is a general wiring diagram for a Formbot V0.2(r1) kit. The only thing spec
 
 Since the `V0.2` uses sensorless homing on the X-Y/A-B axes there's no endstops plugged into either of those inputs. In fact it's important to ensure that nothing is plugged into these inputs. Otherwise sensorless homing will not work.
 
+** Note: ** Use this wiring diagram as a guide, but be sure to follow the polarity from the SKR Pico all the way up to the Umbilical PCB and out of the Toolhead PCB. I highly recommend using a multimeter to check for continuity of the pos/neg at the board and toolhead PCB. Some fans or intermediate wires ** MAY ** be pinned backwards. If this is the case I suggest depinning the connector and swapping the wires to ensure the correct polarity is carried all the way up to the fans.
+
+There is no polarity for thermistors or heaters!
+
 ### Kirigami Bed Wiring
 
 The Formbot kit does **NOT** include any wago or inline connectors!
@@ -329,6 +333,8 @@ Since the Formbot kit bed heater doesn't include an integrated thermal fuse it n
 ![Generic Formbot Kirigami Wiring](Images/Wiring/Formbot-Kirigami-Generic.png)
 
 An inline connector can be used to split the Thermistor wires under the bed.
+
+** NOTE: User [@Carlsans] (https://github.com/Carlsans) mentioned his Formbot kit came with a preinstalled [thermal fuse] (https://github.com/SrgntBallistic/Formbot-V0/issues/3)
 
 ### Formbot Wiring + LDO Kirigami Wiring Kit
 
