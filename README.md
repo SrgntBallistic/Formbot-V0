@@ -55,6 +55,12 @@ Most of this is set in the `printer.cfg` file I've provided:
 
 Replace the entire contents of your `printer.cfg` file with the contents of the file linked above. Follow the instructions in the comments to add the serial Ids for your MCU and Display.
 
+### My Config Backup
+
+** WARNING: ** I do not advice copying my entire config setup. I'm using a lot of custom macros and plugins. I do not guarantee this config is in a working state!
+
+<https://github.com/SrgntBallistic/blue-v0.2-backup-config>
+
 ### Motor Models
 
 Helpful for the Autotune TMC Klipper Plugin
